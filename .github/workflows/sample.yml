@@ -10,4 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: execute echo command
-        run: echo "Hello World!3"
+        run: echo "Hello World!"
+      - name: execute echo command2
+        run: echo "Hello World!2"
